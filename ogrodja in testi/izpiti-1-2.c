@@ -23,11 +23,12 @@ int main(int argc, char const *argv[])
   for(int i = 1; i <= ST_ELEMENTOV; i++)
     list = addItemEnd(list, i);
 
+  node *reverted = revertList(list);
+
   print(list);
 
   printf("------ Obrnjen: ------\n");
-
-  node *reverted = revertList(list);
+  
   print(reverted);
 
   free(reverted);
