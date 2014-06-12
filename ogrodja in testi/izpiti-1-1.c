@@ -1,4 +1,4 @@
-// izpiti komplet 1/5 - naloga 1.
+w// izpiti komplet 1/5 - naloga 1.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     {0, 1, 0, 1, 0, 0},
     {0, 1, 1, 1, 1, 0},
     {0, 1, 1, 1, 1, 1},
-    {0, 1, 1, 1, 1, 1},
+    {0, 0, 1, 1, 1, 1},
     {1, 0, 0, 1, 0, 1}};
   
   int m = 5, n = 6;
