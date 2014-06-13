@@ -23,8 +23,6 @@ bool isHot(int temp) { return temp >= 300; }
 day* addDayEnd(day*, int);
 int dolzinaZaporednihVrocihDni(day*);
 
-// naloga zahteva celoten program, zato tukaj dodatne kode ni,
-// podan je samo testni primer iz besedila (navodila za test so zgoraj)
 int main(int argc, char const *argv[])
 {
   int tmp;
